@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ezan Vakti AI – Akıllı İslami Yardımcın</title>
+  <meta name="description" content="Ezan vakitlerini, kıble yönünü, Esmaül Hüsna'yı ve daha fazlasını tek uygulamada keşfet. Yapay zeka destekli İslami rehberin." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="nav-inner">
+      <div class="logo">
+        <div class="logo-icon">☪</div>
+        <span class="logo-text">Ezan Vakti <span class="ai-badge">AI</span></span>
+      </div>
+      <a href="#indir" class="nav-cta">Ücretsiz İndir</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="star-field" id="starField"></div>
+      <div class="mosque-silhouette"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="hero-eyebrow">
+          <span class="dot"></span>
+          Yapay Zeka Destekli
+        </div>
+        <h1 class="hero-title">
+          Ezan Vakti<br />
+          <span class="gradient-text">AI</span>
+        </h1>
+        <p class="hero-subtitle">
+          Namaz vakitlerinden kıble bulucuya, zikirmatikten Kuran radyosuna —
+          tüm ihtiyaçların tek akıllı uygulamada.
+        </p>
+        <div class="hero-actions">
+          <a href="#indir" class="btn-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+            App Store'dan İndir
+          </a>
+          <a href="#ozellikler" class="btn-secondary">Özellikleri Keşfet</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-num">6</span>
+            <span class="stat-label">Namaz Vakti</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">15+</span>
+            <span class="stat-label">Özellik</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">%100</span>
+            <span class="stat-label">Ücretsiz</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-phone-wrap">
+        <div class="phone-glow"></div>
+        <div class="phone-mockup">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            <div class="app-screen">
+              <div class="app-header">
+                <div class="app-location">📍 İstanbul</div>
+                <div class="app-date">31 Mayıs 2026</div>
+              </div>
+              <div class="app-next-vakit">
+                <div class="vakit-label">Sıradaki Vakit</div>
+                <div class="vakit-name">AKŞAM</div>
+                <div class="vakit-countdown">02:14:38</div>
+              </div>
+              <div class="app-vakit-list">
+                <div class="vakit-row">
+                  <span>İmsak</span><span>04:12</span>
+                </div>
+                <div class="vakit-row">
+                  <span>Güneş</span><span>05:48</span>
+                </div>
+                <div class="vakit-row active">
+                  <span>Öğle</span><span>13:12</span>
+                </div>
+                <div class="vakit-row">
+                  <span>İkindi</span><span>17:04</span>
+                </div>
+                <div class="vakit-row next">
+                  <span>Akşam</span><span>20:25</span>
+                </div>
+                <div class="vakit-row">
+                  <span>Yatsı</span><span>21:51</span>
+                </div>
+              </div>
+              <div class="app-ayet">
+                <span class="ayet-quote">"Şüphesiz Allah sabredenlerle beraberdir."</span>
+              </div>
+            </div>
+          </div>
+          <div class="phone-home-bar"></div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <div class="scroll-arrow">↓</div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" id="ozellikler">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Özellikler</div>
+        <h2 class="section-title">Her şey tek uygulamada</h2>
+        <p class="section-subtitle">Günlük ibadet hayatını kolaylaştıran akıllı araçlar</p>
+      </div>
+      <div class="features-grid">
+
+        <div class="feature-card feature-large">
+          <div class="feature-icon-wrap">
+            <span class="feature-icon">🕌</span>
+          </div>
+          <h3>Namaz Vakitleri</h3>
+          <p>Konumuna göre otomatik güncellenen günlük namaz vakitleri ve akıllı bildirimler. Bir sonraki vakte ne kadar kaldığını gerçek zamanlı takip et.</p>
+          <div class="feature-tag">GPS Destekli</div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">
+            <span class="feature-icon">🧭</span>
+          </div>
+          <h3>Kıble Bulucu</h3>
+          <p>Nerede olursan ol Kâbe yönünü bul.</p>
+          <div class="feature-tag">Pusula</div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">
+            <span class="feature-icon">📿</span>
+          </div>
+          <h3>Zikirmatik</h3>
+          <p>Dijital zikirmatik ile tesbihatını kaydet.</p>
+          <div class="feature-tag">Sayaç</div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">
+            <span class="feature-icon">✨</span>
+          </div>
+          <h3>Esmaül Hüsna</h3>
+          <p>Allah'ın 99 güzel ismini anlamları ile öğren.</p>
+          <div class="feature-tag">99 İsim</div>
+        </div>
+
+        <div class="feature-card feature-large">
+          <div class="feature-icon-wrap">
+            <span class="feature-icon">🤖</span>
+          </div>
+          <h3>İmama Sor – AI</h3>
+          <p>Aklına takılan dini soruları yapay zeka destekli asistana sor. Güvenilir, Kuran ve Sünnet odaklı cevaplar al. Hızlı, kolay, her an yanında.</p>
+          <div class="feature-tag">Yapay Zeka</div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">
+            <span class="feature-icon">📻</span>
+          </div>
+          <h3>Kuran Radyosu</h3>
+          <p>Canlı Kuran-ı Kerim yayınlarını dinle.</p>
+          <div class="feature-tag">Canlı</div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">
+            <span class="feature-icon">🕌</span>
+          </div>
+          <h3>En Yakın Camiler</h3>
+          <p>Bulunduğun konuma yakın camileri haritada bul.</p>
+          <div class="feature-tag">Harita</div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">
+            <span class="feature-icon">💧</span>
+          </div>
+          <h3>Su Takibi</h3>
+          <p>Günlük su tüketimini takip et, sağlıklı yaşa.</p>
+          <div class="feature-tag">Sağlık</div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">
+            <span class="feature-icon">📅</span>
+          </div>
+          <h3>Dini Günler</h3>
+          <p>Kandil ve bayram takvimini kaçırma.</p>
+          <div class="feature-tag">Takvim</div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">
+            <span class="feature-icon">🧸</span>
+          </div>
+          <h3>Çocuk Dünyası</h3>
+          <p>Çocukların İslam'ı sevmesi için eğlenceli içerikler.</p>
+          <div class="feature-tag">Eğlenceli</div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">
+            <span class="feature-icon">💰</span>
+          </div>
+          <h3>Zekat Hesaplama</h3>
+          <p>Zekat miktarını kolayca hesapla.</p>
+          <div class="feature-tag">Hesap</div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">
+            <span class="feature-icon">📖</span>
+          </div>
+          <h3>Kaza Takibi</h3>
+          <p>Kılınan ve kaza namazlarını kayıt altına al.</p>
+          <div class="feature-tag">Takip</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SCREENSHOTS / MOCKUP SHOWCASE -->
+  <section class="showcase">
+    <div class="container">
+      <div class="showcase-inner">
+        <div class="showcase-text">
+          <div class="section-eyebrow">Tasarım</div>
+          <h2 class="section-title">Gece temasıyla<br />huzur dolu deneyim</h2>
+          <p class="section-subtitle">Lacivert zemin, yeşil aksan renklerinden oluşan sade ve zarif arayüz. Gözleri yormayan karanlık tema ile gece namazını kaçırma.</p>
+          <ul class="showcase-list">
+            <li>
+              <span class="check">✓</span>
+              Özelleştirilebilir duvar kağıdı ve temalar
+            </li>
+            <li>
+              <span class="check">✓</span>
+              Gerçek zamanlı geri sayım sayacı
+            </li>
+            <li>
+              <span class="check">✓</span>
+              Günlük ayet ve hadis gösterimi
+            </li>
+            <li>
+              <span class="check">✓</span>
+              Akıllı bildirimler — sadece gerektiğinde
+            </li>
+          </ul>
+        </div>
+        <div class="showcase-phones">
+          <div class="phone-mockup phone-back">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <div class="app-screen-alt">
+                <div class="alt-header">Esmaül Hüsna</div>
+                <div class="esma-list">
+                  <div class="esma-item"><span class="arabic">ٱلرَّحْمَٰن</span><span>Er-Rahman</span></div>
+                  <div class="esma-item"><span class="arabic">ٱلرَّحِيم</span><span>Er-Rahim</span></div>
+                  <div class="esma-item"><span class="arabic">ٱلْمَلِك</span><span>El-Melik</span></div>
+                  <div class="esma-item"><span class="arabic">ٱلْقُدُّوس</span><span>El-Kuddüs</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="phone-home-bar"></div>
+          </div>
+          <div class="phone-mockup phone-front">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <div class="app-screen-kible">
+                <div class="alt-header">Kıble Bulucu</div>
+                <div class="compass-wrap">
+                  <div class="compass">
+                    <div class="compass-needle">
+                      <div class="needle-up"></div>
+                      <div class="needle-down"></div>
+                    </div>
+                    <span class="compass-label">N</span>
+                  </div>
+                  <div class="compass-kabe">🕋</div>
+                </div>
+                <div class="compass-deg">Kâbe: 157° SE</div>
+              </div>
+            </div>
+            <div class="phone-home-bar"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOWNLOAD CTA -->
+  <section class="download" id="indir">
+    <div class="download-glow"></div>
+    <div class="container">
+      <div class="download-inner">
+        <div class="download-text">
+          <h2>Hemen İndir,<br />İlk Vakti Kaçırma</h2>
+          <p>Ücretsiz, reklamsız, sade. Sadece ihtiyacın olan şey.</p>
+          <div class="download-badges">
+            <a href="#" class="store-badge apple">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+              <div>
+                <div class="badge-sub">App Store'dan İndir</div>
+                <div class="badge-main">iPhone & iPad</div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="download-kaaba">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Kaaba_2.jpg/640px-Kaaba_2.jpg" alt="Kâbe" class="kaaba-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" />
+          <div class="kaaba-fallback">
+            <span>🕋</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="logo">
+            <div class="logo-icon">☪</div>
+            <span class="logo-text">Ezan Vakti <span class="ai-badge">AI</span></span>
+          </div>
+          <p>Akıllı İslami yardımcın. Her an, her yerde.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Uygulama</h4>
+            <a href="#ozellikler">Özellikler</a>
+            <a href="#indir">İndir</a>
+          </div>
+          <div class="footer-col">
+            <h4>Özellikler</h4>
+            <a href="#">Namaz Vakitleri</a>
+            <a href="#">Kıble Bulucu</a>
+            <a href="#">Zikirmatik</a>
+            <a href="#">Kuran Radyosu</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Ezan Vakti AI. Tüm hakları saklıdır.</p>
+        <p class="footer-made">بسم الله الرحمن الرحيم</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
