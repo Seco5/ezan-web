@@ -60,10 +60,9 @@ body {
 .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
 .logo-icon { font-size: 22px; color: var(--green); }
 .logo-text { font-size: 18px; font-weight: 700; color: var(--white); }
-.ai-badge {
-  background: var(--green); color: var(--bg);
-  font-size: 10px; font-weight: 800; letter-spacing: .05em;
-  padding: 2px 6px; border-radius: 6px; vertical-align: 1px;
+.logo-img {
+  width: 36px; height: 36px; border-radius: 10px;
+  object-fit: cover;
 }
 .nav-cta {
   background: var(--green); color: var(--bg);
@@ -73,6 +72,37 @@ body {
   transition: transform .2s, box-shadow .2s;
 }
 .nav-cta:hover { transform: translateY(-1px); box-shadow: 0 8px 24px var(--green-glow); }
+
+/* ── ICON SHOWCASE ── */
+.icon-showcase {
+  padding: 60px 0 20px;
+}
+.icon-showcase-inner {
+  display: flex; align-items: center; gap: 48px;
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius-lg); padding: 48px;
+}
+.app-icon-large {
+  width: 140px; height: 140px; border-radius: 32px;
+  box-shadow: 0 20px 60px rgba(0,0,0,.5), 0 0 0 1px var(--border);
+  flex-shrink: 0;
+}
+.icon-showcase-text h2 {
+  font-size: 28px; font-weight: 800; margin-bottom: 12px;
+}
+.icon-showcase-text p {
+  font-size: 16px; color: var(--text); line-height: 1.7; margin-bottom: 24px; max-width: 480px;
+}
+
+.app-icon-download {
+  width: 160px !important; height: 160px !important;
+  border-radius: 36px !important;
+  box-shadow: 0 20px 60px rgba(0,0,0,.5) !important;
+}
+
+@media (max-width: 700px) {
+  .icon-showcase-inner { flex-direction: column; text-align: center; padding: 32px 24px; }
+}
 
 /* ── HERO ── */
 .hero {
