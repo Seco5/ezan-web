@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bize Ulaşın – Ezan Vakti Plus</title>
+  <meta name="description" content="Ezan Vakti Plus ile iletişime geçin." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="legal.css" />
+  <link rel="stylesheet" href="contact.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav class="nav scrolled" id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">
+        <img src="app-icon.png" alt="Ezan Vakti Plus" class="logo-img" />
+        <span class="logo-text">Ezan Vakti Plus</span>
+      </a>
+      <a href="index.html#indir" class="nav-cta">Ücretsiz İndir</a>
+    </div>
+  </nav>
+
+  <main class="legal">
+    <div class="container legal-container">
+      <a href="index.html" class="legal-back">← Ana Sayfa</a>
+
+      <h1 class="legal-title">Bize Ulaşın</h1>
+      <p class="legal-intro">
+        Sorularınız, önerileriniz veya geri bildirimleriniz için aşağıdaki
+        formu doldurabilir ya da doğrudan
+        <a href="mailto:ezanvaktiplus@outlook.com" class="legal-mail">ezanvaktiplus@outlook.com</a>
+        adresine yazabilirsiniz.
+      </p>
+
+      <form id="contactForm" class="contact-form" novalidate>
+        <div class="form-row">
+          <label for="name">Adınız</label>
+          <input type="text" id="name" name="name" placeholder="Adınız Soyadınız" required />
+        </div>
+
+        <div class="form-row">
+          <label for="email">E-posta Adresiniz</label>
+          <input type="email" id="email" name="email" placeholder="ornek@email.com" required />
+        </div>
+
+        <div class="form-row">
+          <label for="subject">Konu</label>
+          <select id="subject" name="subject">
+            <option value="Genel Soru">Genel Soru</option>
+            <option value="Geri Bildirim">Geri Bildirim</option>
+            <option value="Hata Bildirimi">Hata Bildirimi</option>
+            <option value="Özellik Önerisi">Özellik Önerisi</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label for="message">Mesajınız</label>
+          <textarea id="message" name="message" rows="6" placeholder="Mesajınızı buraya yazın..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn-primary contact-submit">
+          Mesajı Gönder
+        </button>
+
+        <p class="contact-note">
+          Gönder butonuna bastığınızda, e-posta uygulamanız mesajınız önceden
+          doldurulmuş olarak açılacaktır.
+        </p>
+      </form>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>© 2026 Ezan Vakti Plus. Tüm hakları saklıdır.</p>
+        <p class="footer-made">بسم الله الرحمن الرحيم</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="contact.js"></script>
+</body>
+</html>
