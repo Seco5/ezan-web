@@ -1,0 +1,60 @@
+/* ── LEGAL PAGES (Privacy / Terms) ── */
+
+.legal {
+  padding: 140px 0 80px;
+  min-height: 100vh;
+}
+
+.legal-container {
+  max-width: 720px;
+}
+
+.legal-back {
+  display: inline-block;
+  font-size: 14px; font-weight: 600; color: var(--green);
+  text-decoration: none;
+  margin-bottom: 32px;
+  transition: opacity .2s;
+}
+.legal-back:hover { opacity: .8; }
+
+.legal-title {
+  font-size: clamp(32px, 5vw, 44px);
+  font-weight: 800; letter-spacing: -.02em;
+  margin-bottom: 20px;
+}
+
+.legal-intro {
+  font-size: 16px; color: var(--text); line-height: 1.7;
+  margin-bottom: 40px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--border);
+}
+
+.legal h2 {
+  font-size: 19px; font-weight: 700; color: var(--green);
+  margin: 36px 0 12px;
+}
+
+.legal p {
+  font-size: 15px; color: var(--text); line-height: 1.75;
+  margin-bottom: 12px;
+}
+
+.legal strong { color: var(--white); font-weight: 600; }
+
+.legal-mail {
+  color: var(--green); text-decoration: none; font-weight: 600;
+}
+.legal-mail:hover { text-decoration: underline; }
+
+.legal-updated {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  font-size: 13px; color: var(--muted); font-style: italic;
+}
+
+@media (max-width: 600px) {
+  .legal { padding: 120px 0 60px; }
+}
